@@ -18,6 +18,7 @@ system.debug('HR record size'+ mapHRRecords.size());
         for(Hiring_Manager1__c hr : mapHRRecords.values() )
         {
             system.debug('Hiring Manager record is .....'+ hr);
+            system.debug('Hiring Manager record is...'+ hr);
         }
     }
 }
