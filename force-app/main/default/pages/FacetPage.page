@@ -1,0 +1,10 @@
+<apex:page >
+    <apex:sectionHeader title="Student" subtitle="New Student" help="/apex/apex_FacetPage"/>
+    <apex:pageBlock >
+    <apex:facet name="Header"> Header Info </apex:facet>
+        <apex:facet name="Footer"> Footer Info</apex:facet>
+        Name : Vardhan <br/>
+        Age  : 22  <br/>
+        place : Nizamabad <br/>
+    </apex:pageBlock>
+</apex:page>

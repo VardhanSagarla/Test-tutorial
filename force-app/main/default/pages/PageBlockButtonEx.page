@@ -1,0 +1,14 @@
+<apex:page >
+    <apex:form >
+    <apex:sectionHeader title="Product" subtitle="New Product" help="Apex/apex.page"/>
+    <apex:pageblock title="Product">
+        <apex:facet name="footer">Copyrights@salesforce.com </apex:facet>
+        <apex:pageBlockButtons >
+            <apex:commandButton value="Save" />
+            <apex:commandButton value="Cancel"/>
+        </apex:pageBlockButtons>
+        Vardhan : Name <br/>Vardhan : Name <br/>Vardhan : Name <br/>Vardhan : Name <br/>
+        
+    </apex:pageblock>
+        </apex:form>
+</apex:page>

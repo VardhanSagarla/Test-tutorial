@@ -1,0 +1,7 @@
+<apex:page setup="True" >
+    <apex:sectionHeader title="Hiring Manager" subtitle="New HR" help="/apex/testpage" rendered="True"/>
+    Name : Vardhan<br/><br/>
+    Age : 22 <br/><br/>
+    City : Nixamabad <br/><br/>
+
+</apex:page>

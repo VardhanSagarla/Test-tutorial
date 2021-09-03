@@ -1,0 +1,47 @@
+<!--
+Apex:commandButton  :
+1. This is a child component of Apex:Form
+2. This is used to create button on the page
+3. Attributes
+	a. Value :
+		1. This is a string Value
+		2. This will be displayed as a label on the button
+	b. disabled :
+		1. This is a boolean value
+		2. When set as true, button will be diabled
+		3. Default value is false
+	c. rendered :
+		1. It is a Boolean value
+		2. when set as true, button is displayed
+		3. when set as false, button is hidden
+	d. action
+		1. This will specify what action should it perform
+		2. action can be URL or Apex Class.
+	e. dir
+		1. This will specify Direction
+	f. style
+		1. if you want to apply any css then we use style
+
+-->
+<apex:page >
+    <apex:form id="one">
+    <apex:commandButton value="My Button"/>
+    <apex:commandButton value="Cancel" disabled="True"/>
+    <apex:commandButton value=" Display" rendered="False"/>
+	<apex:commandButton value="Reload" reRender="one"/>
+    <apex:commandButton value="MyStyle" style="background:yellow;color:red;"/>
+         <br/><br/>
+        <apex:PageBlock title="Example">
+        <apex:pageblockbuttons location="bottom">      <!-- - Specifies weather to display buttons top or below -->
+            <apex:commandButton value="Submit"/>
+            <apex:commandButton value="cancel"/>
+            
+            
+            </apex:pageblockbuttons>
+        
+        
+        
+        
+        </apex:PageBlock>
+    </apex:form>
+</apex:page>

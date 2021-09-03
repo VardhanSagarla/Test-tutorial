@@ -1,0 +1,37 @@
+<!-- 
+apex:pageBlockButtons:
+1. This is a child component of PageBlockButtons
+2. What ever we define in the PageBlockButtons , that will be displayed on the header and footer of the block.
+3. Attributes :
+	Locations :
+	a.This will specify the location of the content
+	b. Possible values are top and bottom
+	
+	dir:
+	a. This will specify the direction of the content
+	b. possible values are LTR or RTL
+
+
+-->
+<apex:page >
+<apex:form >
+     <apex:PageBlock title="Example">
+              <apex:pageblockbuttons location="top" dir="RTL">    
+            <apex:commandButton value="Submit"/>
+            <apex:commandButton value="cancel"/>
+            </apex:pageblockbuttons>
+         
+         Vardhan<br/>
+          Vardhan<br/>
+          Vardhan<br/> Vardhan<br/> Vardhan<br/>
+          Vardhan<br/>
+        </apex:PageBlock> 
+     <apex:PageBlock title="Example">
+              <apex:pageblockbuttons location="bottom">    
+            <apex:commandButton value="Submit"/>
+            <apex:commandButton value="cancel"/>
+            </apex:pageblockbuttons>
+         Vinnu<br/>Vinnu<br/>Vinnu<br/>Vinnu<br/>Vinnu<br/>
+        </apex:PageBlock>     
+</apex:form>
+</apex:page>
